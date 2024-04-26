@@ -1,0 +1,264 @@
+html {
+    position: relative;
+    min-height: 100%;
+    margin-top: 80px;
+  }
+
+
+div,body {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*Estilos a la barra de navegacion en el header*/
+.bg-custom {
+    background-color: #ada3a1;
+    height: 80px;
+}
+
+
+.dropdown-menu-bg .dropdown-item {
+    background-color:#ada3a1;
+} 
+
+.dropdown-menu-bg .dropdown-item:hover {
+    color:white;
+    background-color:#ada3a1;
+} 
+
+#login {
+    background-color:#807a79;
+    color: white;
+    border-radius: 20px; 
+    margin-right: 50px;
+    width: 130px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar h1 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*Estilos a cada seccion de la pagina*/
+
+/*Seccion 1*/
+
+.section1 {
+    text-align: center;
+    padding: 50px;
+    background-image: url('../img/liceoo.png');
+    background-size: cover; 
+    background-position: center;
+    color:#fdfdfd;
+}
+
+.container1 {
+    backdrop-filter: blur(10px);
+}
+
+.container1 p {
+    font-size: 17px;
+}
+
+/*Seccion 2*/
+
+.section2 {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.section2 h1 , .section2 h2 {
+    margin-bottom: 20px;
+}
+
+#inputAddress {
+    width: 800px;
+    margin: 0 auto; /* centrar horizontalmente */
+    margin-bottom: 20px;
+}
+
+#inputCity {
+    width: 800px;
+    margin-left: 225px;
+}
+
+.label-city {
+    margin-left: 600px;
+}
+
+#gridCheck {
+    margin-left: 400px;
+}
+
+.form-check-label {
+    margin-right: 450px;
+}
+
+.col-md-6 {
+    margin-bottom: 15px; /* Espacio debajo de los inputs */
+  }
+
+.container2 {
+    border-style:double;
+    padding: 20px;
+    background-color: #2c2c2c;
+}
+
+/*Seccion 3*/
+
+.section3 {
+    text-align: center;
+    background-color:#807a79;
+    padding: 50px;
+}
+
+.carousel-item img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 1900px; /* Define un ancho máximo para la imagen */
+    max-height: 700px; /* Define una altura máxima para la imagen */
+    border: 5px solid #ada3a1;
+}
+
+.carousel-caption h5 {
+    font-size: 42px; /* Tamaño del texto del título */
+  }
+  
+  .carousel-caption p {
+    font-size: 34px; /* Tamaño del texto de la descripción */
+  }
+
+/*Seccion 4*/
+
+.section4 {
+    text-align: center;
+    padding: 50px;
+}
+
+.section4 {
+    background-image: url('../img/biblioteca.jpg');
+    background-size: cover; 
+    background-position: center;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
+
+.section4 h1 {
+    margin-bottom: 40px;
+    color:whitesmoke
+}
+
+.section4 p {
+    font-size: 22px;
+    color:whitesmoke;
+}
+
+.section4 a {
+    text-decoration: none; 
+    color:whitesmoke;
+    transition: color 0.3s; 
+}
+
+.section4 a:hover {
+    color: black; 
+}
+
+.section4 h3 {
+    text-decoration: underline;
+    margin-top: 30px; 
+    color:whitesmoke
+}
+
+.section4 li {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+}
+
+/*Seccion 5*/
+
+.section5 {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.section5 h1 {
+    margin-bottom: 30px;
+}
+
+.section5 h6 {
+    margin-bottom: 30px;
+}
+
+.section5 .card .card-body {
+    padding: 20px; 
+}
+
+.section5 .card .card-body h5 {
+    margin-bottom: 20px; 
+}
+
+.section5 .card .card-body p {
+    margin-bottom: 20px; 
+}
+
+.card-body {
+    background-color: #2c2c2c;
+}
+
+.card p , .card h5 {
+    color: beige;
+}
+
+
+/*Aplicando estilo al footer*/
+
+footer {
+    background-color: #ada3a1;
+    color: #111111;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.info,.contact,.horario,.iconos {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+}
+
+.iconos img {
+    margin-top: 20px;
+}
+
+
+#copyright {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color:#111111;
+}
+
+a:hover {
+    color: white;
+}
